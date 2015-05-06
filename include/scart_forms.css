@@ -1,0 +1,45 @@
+/*-- filename: gahscart/include/scart_forms.css
+      - Mon Dec  9 16:49:41 PST 2013
+      - cloned from: gahblog2/blogaddforms.css
+     Intro PHP/SQL lesson 15 Final Project - Part 2
+*/
+table {
+   border-collapse: collapse;
+}
+th {
+   background-color: lightgrey;
+   text-align: right;
+   padding: 10px;
+}
+td {
+   background-color: #a6d7a6;
+   padding: 10px;
+}
+caption {
+   caption-side: bottom;
+   font-style: italic;
+   font-size: 80%;
+}
+/*  Reference: OST JavaScript JSON and Ajax lesson 10, lab10_h3-strings.html  */
+/*  <style> from html  */
+textarea {
+   width:  700px;
+   height: 400px;
+}
+/*   <style>  additional for new link="filename" */
+div.tableContainer {
+    display: table;
+    border-spacing: 5px;
+}
+div.tableRow {
+    display: table-row;
+}
+div.tableRow label {
+    display: table-cell;
+    text-align: right;
+    padding: 5px;
+}
+div.tableRow input {
+    display: table-cell;
+}
+

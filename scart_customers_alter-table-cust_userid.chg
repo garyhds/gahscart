@@ -1,0 +1,13 @@
+date: Tue 05 May 2015 15:35:28 PDT 
+
+change log:
+- 2015-05-05 notes. fgl-desktop smartGit Repo Dev
+  - First Init, Commit, Upload ../repository-git_scart/gahscart
+    - including table and program updates for new customer user id.
+  1 mysql table update
+	alter table scart_customers set cust_userid = CONCAT('cust_userid', 'custid')
+  2 program updates
+	scart-account_addentry.php, table reference update
+	scart-account_register.php, table reference update
+	scart-product_index.php, 2015 Christmas calculation date
+
